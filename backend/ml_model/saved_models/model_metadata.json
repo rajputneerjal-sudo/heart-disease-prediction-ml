@@ -1,0 +1,114 @@
+{
+  "best_model": "SVM",
+  "metrics": {
+    "Logistic Regression": {
+      "accuracy": 0.835,
+      "precision": 0.9032258064516129,
+      "recall": 0.7777777777777778,
+      "f1_score": 0.835820895522388,
+      "roc_auc": 0.9255233494363929,
+      "cv_mean": 0.83375,
+      "cv_std": 0.03720719016534302
+    },
+    "Random Forest": {
+      "accuracy": 0.83,
+      "precision": 0.9021739130434783,
+      "recall": 0.7685185185185185,
+      "f1_score": 0.8300000000000001,
+      "roc_auc": 0.9141505636070852,
+      "cv_mean": 0.7987499999999998,
+      "cv_std": 0.03122498999199201
+    },
+    "Decision Tree": {
+      "accuracy": 0.715,
+      "precision": 0.8,
+      "recall": 0.6296296296296297,
+      "f1_score": 0.7046632124352332,
+      "roc_auc": 0.7376207729468598,
+      "cv_mean": 0.71875,
+      "cv_std": 0.03036239450372782
+    },
+    "SVM": {
+      "accuracy": 0.835,
+      "precision": 0.8787878787878788,
+      "recall": 0.8055555555555556,
+      "f1_score": 0.8405797101449276,
+      "roc_auc": 0.9121376811594204,
+      "cv_mean": 0.825,
+      "cv_std": 0.02338535866733713
+    }
+  },
+  "feature_importance": [
+    {
+      "feature": "Age",
+      "importance": 0.07692307692307693
+    },
+    {
+      "feature": "Gender",
+      "importance": 0.07692307692307693
+    },
+    {
+      "feature": "Chest Pain Type",
+      "importance": 0.07692307692307693
+    },
+    {
+      "feature": "Blood Pressure",
+      "importance": 0.07692307692307693
+    },
+    {
+      "feature": "Cholesterol",
+      "importance": 0.07692307692307693
+    },
+    {
+      "feature": "Fasting Blood Sugar",
+      "importance": 0.07692307692307693
+    },
+    {
+      "feature": "Resting ECG",
+      "importance": 0.07692307692307693
+    },
+    {
+      "feature": "Max Heart Rate",
+      "importance": 0.07692307692307693
+    },
+    {
+      "feature": "Exercise Angina",
+      "importance": 0.07692307692307693
+    },
+    {
+      "feature": "ST Depression",
+      "importance": 0.07692307692307693
+    },
+    {
+      "feature": "ST Slope",
+      "importance": 0.07692307692307693
+    },
+    {
+      "feature": "Major Vessels",
+      "importance": 0.07692307692307693
+    },
+    {
+      "feature": "Thalassemia",
+      "importance": 0.07692307692307693
+    }
+  ],
+  "features": [
+    "age",
+    "sex",
+    "cp",
+    "trestbps",
+    "chol",
+    "fbs",
+    "restecg",
+    "thalach",
+    "exang",
+    "oldpeak",
+    "slope",
+    "ca",
+    "thal"
+  ],
+  "training_samples": 800,
+  "test_samples": 200,
+  "best_accuracy": 0.835,
+  "best_f1": 0.8405797101449276
+}
